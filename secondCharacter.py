@@ -16,6 +16,8 @@ print(slice)
 
 # Example string:
 # The quick brown fox jumps over the lazy dog.
+    # Enter a string: The quick brown fox jumps over the lazy dog.
+    # .o zletrv pu o wr cu h
 
 
 
