@@ -11,7 +11,7 @@ name = input('Enter your name? ')
 print ('Hello ' + name + '!')
 weight = float(input('Enter your weight (kg): '))
 height = float(input('Enter your height (cm): ')) 
-bmi = weight / (height/100)**2
+bmi = weight/(height/100)**2
 
 # If you want your BMI to be full number, use 
 # Python's built-in function round(), and replace

@@ -1,7 +1,7 @@
 # My solution to weekly task 03
 
 # This program reads in a string and outputs 
-# every second character of that string.
+# every n character of that string.
 # You need to use Python's built-in function
 # slice[start:stop:step] = slice[::n] to do that.
 # n represent the character in the string.
@@ -13,6 +13,11 @@ string = input("Enter a string: " )
 n = -2
 slice = string[::n]
 print(slice)
+
+# Or you can even make it shorter and use following program:
+# string = input("Enter a string: " )
+# n = -2
+# print(string[::n])
 
 # Example string:
 # The quick brown fox jumps over the lazy dog.
