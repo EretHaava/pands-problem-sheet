@@ -5,7 +5,7 @@ Solution to week 02
 To find materials, on how to calculate your BMI in Python, wasn't a problem at all.
 I used following sources:
 1) Youtube
-2) Google
+2) Google    \n
 There were loads of different videos in Youtube and materials in Google.
 
 However, the formula to calculate your BMI was always same:
