@@ -10,17 +10,17 @@ There were loads of different videos in Youtube and materials in Google.
 
 However, the formula to calculate your BMI was always same:
 bmi = weight / height**2
-Pay attention that in the weekly task, we were asked to enter the weight in kg and the height in cm!!! Therefore, you you have to options:
-1) convert cm into meters and then continue or
+Pay attention that in the weekly task, we were asked to enter the weight in kg and the height in cm!!! Therefore, you have to options:
+1) convert cm into meters and then continue, or
 2) change the formula a bit: bmi = weight/(height/100)**2
 Both do exactly the same job.
 
 I also used Pythons built-in function round() here, because BMI like 21,753135271392187
 didn't look very neat. Full number looked much better.
 
-I added in an extra bit to inform the user is he/she underweight, normal weight,
-overweight or obese. Good to know... Should I worry and start moving now 
-or I can be lazy on a couch another while.
+I added in an extra bit to inform the user if he/she is underweight, normal weight,
+overweight or obese. Good to know... Should you worry and start moving now 
+or you can be lazy on a couch another while.
 
 
 
