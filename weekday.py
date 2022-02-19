@@ -1,5 +1,8 @@
 # This program asks the user to input a day in the week
 # and then informs is it a weekend or not.
+# The program won't stop until the user 
+# has entered a weekday.
+# Easy version but does what was asked.
 # Author: Eret Haava
 
 days =  'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
