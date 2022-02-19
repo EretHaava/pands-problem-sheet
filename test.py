@@ -1,3 +1,5 @@
+# What am I doing wrong???
+
 days =  ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 weekend = ['Saturday', 'Sunday']
