@@ -81,4 +81,42 @@ Example string: The quick brown fox jumps over the lazy dog.
     .o zletrv pu o wr cu h
 
 
+
 Solution to week 04
+
+I found good few different ways how to write the program using collatz conjecture.
+However, the best one was the video in Youtube. 
+https://www.youtube.com/watch?v=lAp_5qTdOhM
+
+First you define the collatz function and type in the if and elif 
+conditions and statements.
+
+def collatz(number):
+    if (number % 2 == 0):       # checks for even number
+        return number // 2      # performs mathematical operation
+    elif (number % 2 == 1):     # checks for odd number
+        return number * 3 + 1   # performs mathematical operation
+    else:
+        print('Something went wrong in collatz')
+        return None
+
+Then you ask the user to call out the number 
+number = int(input('Please enter a positive integer: '))
+
+And then you pass that number to collatz. 
+You also need to use a while loop to make the collatz running until it reaches number '1'.
+
+print(number)                   # prints out the entered number
+while(number != 1):             # goes through this loop until condition is True
+    number = collatz(number)    # performs Collatz conjecture
+    print(number)               # prints out the list
+
+Weekly task:
+Please enter a positive integer: 10
+10
+5
+16
+8
+4
+2
+1

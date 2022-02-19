@@ -10,12 +10,15 @@ def collatz(number):
         return number // 2      # performs mathematical operation
     elif (number % 2 == 1):     # checks for odd number
         return number * 3 + 1   # performs mathematical operation
+    else:
+        print('Something went wrong in collatz')
+        return None
 
 number = int(input('Please enter a positive integer: '))
-print(number)       # prints out input number
-while(number != 1):     # goes through this loop until condition is True
+print(number)                   # prints out original number
+while(number != 1):             # goes through this loop until condition is True
     number = collatz(number)    # performs Collatz conjecture
-    print(number)   # prints out the list
+    print(number)               # prints out the list
 
 
     
